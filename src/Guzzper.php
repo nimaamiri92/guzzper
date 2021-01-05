@@ -74,12 +74,17 @@ class Guzzper
         return false;
     }
 
-    public function json()
+    public function response()
     {
         return $this->response;
     }
 
-    public function parseToPhp($isArray = false)
+    public function xmlResponseToPhp()
+    {
+        return new \SimpleXMLElement($this->response,);
+    }
+
+    public function jsonResponseToPhp($isArray = false)
     {
         return json_decode($this->response,$isArray);
     }
