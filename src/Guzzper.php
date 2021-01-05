@@ -81,7 +81,7 @@ class Guzzper
 
     public function xmlResponseToPhp()
     {
-        return new \SimpleXMLElement($this->response,);
+        return new \SimpleXMLElement($this->response);
     }
 
     public function jsonResponseToPhp($isArray = false)
