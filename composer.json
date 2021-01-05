@@ -11,7 +11,7 @@
             "email": "nimaamiri92@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "1.0.5-stable",
     "autoload": {
         "psr-4": {
             "Guzzper\\": "src/"
