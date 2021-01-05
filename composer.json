@@ -2,7 +2,7 @@
     "name": "nimaamiri92/guzzper",
     "description": "Use Guzzle to call Api and return response(better error response)",
     "require": {
-        "guzzlehttp/guzzle": "^7.2.x"
+        "guzzlehttp/guzzle": "^7.2"
     },
     "license": "MIT",
     "authors": [
