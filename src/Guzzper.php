@@ -88,5 +88,4 @@ class Guzzper
     {
         return json_decode($this->response,$isArray);
     }
-
 }
